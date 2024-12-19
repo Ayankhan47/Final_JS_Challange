@@ -1,9 +1,9 @@
 const Img = [
-    './img1.png',
-    './img2.png',
-    './img3.png',
-    './img4.png',
-    './img5.png'
+    './Images/img1.png',
+    './Images/img2.png',
+    './Images/img3.png',
+    './Images/img4.png',
+    './Images/img5.png'
 ];
 
 var btn = document.querySelector("button");

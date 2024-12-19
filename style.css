@@ -25,6 +25,7 @@ button{
     background-color: black;
     color: whitesmoke;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 button:active{
     scale: 0.95;
