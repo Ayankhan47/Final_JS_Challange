@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 30px 10px;
+    background-color: rgb(7, 26, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 30px;
+}
+button:active{
+    scale: 0.95;
+}
+#box{
+    height: 80%;
+    width: 80%;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid royalblue;
+    position: relative;
+}
+#box img{
+    height: 40px;
+    position: absolute;
+}
